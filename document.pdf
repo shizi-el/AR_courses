@@ -1,0 +1,33 @@
+%Préambule du document :
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+
+\title{RAPPORT DE L'EXO 1 DE L'UE CODER POUR LA VR, L'XR et L'AR}
+\author{KAMBDETEY Lionel}
+\date{4 march 2024}
+
+%Corps du document :
+\begin{document}
+	\maketitle
+	\tableofcontents
+
+	\chapter{Introduction}
+	Le présent document, présente le rapport de l'exercice 1 de l'UE Coder pour l'AR/VR, qui consiste à coder un programme qui prend en main un HDI, dans notre cas, nous avons utilisé la souris.
+	\section{Présentation de la souris}
+	Une souris est un dispositif de pointage pour ordinateur, autrement dit un HDI. Elle est composée d'un petit boîtier fait pour tenir sous la main, sur lequel se trouvent un ou plusieurs buttons, et une molette dans la plupart des cas.
+	
+	\section{Présentation de Pygame}
+	Pygame est une bibliothèque libre multiplate-forme qui facilite le développement de jeux vidéo temps réel avec le langage de programmation Python.
+	\chapter{Présentation du programme}
+	\section{Prise en main d'un HID avec Pygame, cas de la souris}
+	
+	\begin{enumerate}
+		\item Nous avons tout d'abord importer le module pygame, après l'avoir préalablement instalé via l'invite de commande.
+		\item Nous avons initialisé pygame, ensuite nous avons configurer la taille de l'écran par (800;600)
+		\item Ensuite à l'intérieur d'une boucle de jeu, nous avons grace à la méthode pygame.mouse récuperer les signaux des évènements lors de l'interaction avec le HID.
+		\item  En fonction du click effectué nous affichons un message dans la console.
+	\end{enumerate}
+	
+	
+\end{document}
